@@ -15,34 +15,58 @@
 			z-index: 0;
 		}
 		
-		.tradisto_container {
-			margin: 8px;
-			width: 310px;
+		#tradisto_container {
+			margin: 16px;
+			width: 280px;
 			height: 240px;
 			position: absolute;
 			top: 15px;
 			left: 3px;
 			z-index: 100;
 		}
-	
-		#eoinput {
-			position: absolute;
-			top: 50px;
-			left: 22px;
-			width: 280px;
-			height: 110px;
+		
+		#eo_input textarea {
+			width: 284px;
+			height: 88px;
+		}
+		
+		#en_input textarea {
+			width: 284px;
+			height: 88px;
+		}
+		
+		#buttons {
+			background-color: #0000ff;
+			margin: 8px auto;
+		}
+		#buttons input {
+			margin-right: 5px;
 		}
 	</style>
+	
+	<script type="text/javascript" charset="utf-8">
+		function translate(ele) {
+			alert('how does this look in dashboard?');
+		}
+	</script>
 
 </head>
 
 <body>
 		<img id="bgimage" src="background.png">
-		<div class="tradisto_container">
+		<div id="tradisto_container">
 		
 			<form action="" method="get" accept-charset="utf-8" onsubmit="return false;">
-				<textarea id="eoinput">Do your thing</textarea>
-				<p><input type="submit" value="Continue &rarr;"></p>
+				<div id="eo_input">
+					<textarea>Esperanto ĉi tie</textarea>
+				</div>
+				<div id="buttons">
+					<input type="button" name="eo_to_en" value="eo &gt;&gt; en" id="eo_to_en" onclick="translate(this);">
+					<input type="button" name="en_to_eo" value="en &gt;&gt; eo" id="en_to_eo" onclick="transpate(this);">
+				</div>
+				<div id="en_input">
+					<textarea>English here</textarea>
+				</div>
 			</form>
 		</div>
 
