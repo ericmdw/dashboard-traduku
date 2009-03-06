@@ -7,37 +7,44 @@
 		body {
 			margin: 0;
 		}
-
-		.helloText {
-			font: 24px "Lucida Grande";
-			font-weight: bold;
-			color: white;
-			text-align: center;
-			position: absolute;
-			top: 41px;
-			left: 18px;
-			width: 180px;
 		
+		#bgimage {
+			position:absolute;
+			top:0px;
+			left:0px;
+			z-index: 0;
+		}
+		
+		.tradisto_container {
+			margin: 8px;
+			width: 310px;
+			height: 240px;
+			position: absolute;
+			top: 15px;
+			left: 3px;
+			z-index: 100;
 		}
 	
 		#eoinput {
-			top: 41px;
-			left: 18px;
-			width: 170px;
-			height: 60px;
+			position: absolute;
+			top: 50px;
+			left: 22px;
+			width: 280px;
+			height: 110px;
 		}
 	</style>
 
 </head>
 
 <body>
+		<img id="bgimage" src="background.png">
+		<div class="tradisto_container">
 		
-		<img src="Default.png">
-		
-		<form action="" method="get" accept-charset="utf-8" onsubmit="return false;">
-			<textarea id="eoinput">Do your thing</textarea>
-			<p><input type="submit" value="Continue &rarr;"></p>
-		</form>
+			<form action="" method="get" accept-charset="utf-8" onsubmit="return false;">
+				<textarea id="eoinput">Do your thing</textarea>
+				<p><input type="submit" value="Continue &rarr;"></p>
+			</form>
+		</div>
 
 </body>
 
