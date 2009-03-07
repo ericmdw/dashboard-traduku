@@ -57,30 +57,62 @@
 			$('#debug').val(current + "===DEBUG MESSAGE===\n\n" + message + "\n\n");
 		}
 		
+		function handle_reply(page) {
+			dbg('Full html: ' + page);
+			var bodyBegin = page.indexOf('<body');
+			bodyBegin = bodyBegin + (page.indexOf('>', bodyBegin) - bodyBegin) + 1;
+			var data = page.substring(
+				bodyBegin,
+				page.indexOf('</body>')
+			);
+			dbg('body content: ' + data);
+			
+			$('body').append(data);
+			
+			dbg('en selector: ' + result_en_selector);
+			
+			var en = $('#http_result ' + result_en_selector).html();
+			dbg('in en selector: ' )
+			
+			var eo = $('#http_result ' + result_eo_selector).html();
+			
+			if(ele.id == 'eo_to_en') {
+				$('#en_input textarea').val(en);
+			} else {
+				$('#eo_input textarea').val(eo);
+			}
+			
+			$('#http_result').html('');
+			dbg('cleaned http_result');
+		}
+		
 		function translate(ele) {
 			var result_eo_selector = ele.id == 'eo_to_en' ? '[lang="eo"]' : '#rezulto';
 			var result_en_selector = ele.id == 'eo_to_en' ? 'div' : '#originalo';
 			var text = ele.id == 'eo_to_en' ? $('#eo_input textarea').val() : $('#en_input textarea').val();
-			var query_data = { t : text };
-			
-			if(ele.id == 'eo_to_en') {
-				query_data.eo_en = '';
-				dbg('EO to EN...');
+			var direction = ele.id == 'eo_to_en' ? 'eo_en' : 'en_eo';
+
+			var url = 'http://www.traduku.net/cgi-bin/traduku?' + direction + '\\&t=' + escape(text);
+			dbg('URL: ' + url);
+			if(widget && widget.system) {
+				dbg("have system access...");
 			} else {
-				query_data.en_eo = '';
-				dbg('EN to EO...');
+				dbg("no system access.");
+				if(widget) {
+					dbg("but do have widget...");
+				}
 			}
 			
-			var qdata_dump = function(d) {
-				var out = '';
-				for(k in d) {
-					var stmt = 'd.' + k + ';';
-					var result = eval(stmt);
-					dbg('found key: ' + k + '=' + result);
-				}
-			}(query_data);
+			var output = widget.system("/opt/local/bin/curl " + url, null).outputString;
+			dbg('output: ' + output);
 			
-			$.get('http://traduku.net/cgi-bin/traduku', query_data, function(page) {
+			/*
+			widget.system('curl ' + url, function() {
+				dbg('trying to get sysout...');
+				dbg('system output: ' + command.outputString);
+			});*/
+			
+			/*$.get('http://traduku.net/cgi-bin/traduku', query_data, function(page) {
 				dbg('Full html: ' + page);
 				var bodyBegin = page.indexOf('<body');
 				bodyBegin = bodyBegin + (page.indexOf('>', bodyBegin) - bodyBegin) + 1;
@@ -107,7 +139,7 @@
 				
 				$('#http_result').html('');
 				dbg('cleaned http_result');
-			});
+			});*/
 		}
 	</script>
 
