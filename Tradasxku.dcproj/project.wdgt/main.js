@@ -15,7 +15,7 @@ var eo_hint = "Esperanto ĉi tie...";
 function load()
 {
     dashcode.setupParts();
-    
+
     var eo = document.getElementById('eo_input');
     var en = document.getElementById('en_input');
     
@@ -128,13 +128,20 @@ function do_translate(srcLangCode) {
     else input = escape(input);
     
     var extractTranslation = function(responseXml) {
-        return responseXml;
+        var bodyBeginPos = responseXml.indexOf('<body');
+        bodyBeginPos = responseXml.indexOf('>', bodyBeginPos) + 1;
+        var bodyEndPos = responseXml.indexOf('</body>');
+        var content = responseXml.substring(bodyBeginPos, bodyEndPos);
+        
+        // try with jquery selectors on the content
+        var translation = $('div', '<div id="traduku_wrapper">' + content + '</div>').html();
+        return translation;
     };
     
     var url = 'http://www.traduku.net/cgi-bin/traduku?' + command + '&t=' + input;
     var xmlRequest = new XMLHttpRequest();
     xmlRequest.open("GET", url, true);
-
+    
     xmlRequest.onreadystatechange = function () {
         if (xmlRequest.readyState == 4) {
             if(xmlRequest.status == 200) {
