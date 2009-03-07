@@ -2,12 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Breakpoints</key>
+	<dict/>
 	<key>ContentSplitViewGeometry</key>
 	<dict>
 		<key>ContentSplitViewConfig</key>
-		<integer>8</integer>
+		<integer>24</integer>
 		<key>SplitViewConfig</key>
-		<integer>1</integer>
+		<integer>3</integer>
 		<key>_collapsingFrameDimension</key>
 		<real>0.0</real>
 		<key>_indexOfCollapsedView</key>
@@ -22,6 +24,31 @@
 	</dict>
 	<key>ContentViewType</key>
 	<integer>0</integer>
+	<key>Dashboard Widget Prefs</key>
+	<dict>
+		<key>id</key>
+		<string>d41065ab2cc4ae41</string>
+		<key>in-layer</key>
+		<true/>
+		<key>path</key>
+		<string>/private/var/folders/OG/OGYwjfWWGuCP4AJgYsm1jk+++TI/-Tmp-/Dashcode/.TemplateCustommZ9BAN/Tradasxku.dcproj/project.wdgt/</string>
+		<key>percent-offset-x</key>
+		<integer>0</integer>
+		<key>percent-offset-y</key>
+		<integer>0</integer>
+		<key>percent-type</key>
+		<integer>1</integer>
+		<key>percent-x</key>
+		<real>0.088888891041278839</real>
+		<key>percent-y</key>
+		<real>0.14888888597488403</real>
+		<key>pos-x</key>
+		<integer>128</integer>
+		<key>pos-y</key>
+		<integer>134</integer>
+		<key>rosetta</key>
+		<false/>
+	</dict>
 	<key>DeploymentOptions</key>
 	<dict/>
 	<key>Design time language</key>
@@ -40,10 +67,12 @@
 			<string>{{245, 0}, {760, 696}}</string>
 		</array>
 	</dict>
+	<key>MainWindowFrame</key>
+	<string>288 153 1004 717 0 0 1440 878 </string>
 	<key>NavigatorSplitViewGeometry</key>
 	<dict>
 		<key>ContentSplitViewConfig</key>
-		<integer>9</integer>
+		<integer>5</integer>
 		<key>SplitViewConfig</key>
 		<integer>3</integer>
 		<key>_collapsingFrameDimension</key>
@@ -73,16 +102,10 @@
 		</array>
 	</array>
 	<key>Objects view last selections</key>
-	<array>
-		<array>
-			<integer>0</integer>
-			<integer>0</integer>
-			<integer>0</integer>
-		</array>
-	</array>
+	<array/>
 	<key>Opened Steps</key>
 	<array>
-		<integer>0</integer>
+		<integer>1</integer>
 	</array>
 	<key>Visible StackLayout Views</key>
 	<array>

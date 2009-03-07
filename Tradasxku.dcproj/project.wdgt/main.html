@@ -18,10 +18,10 @@
     <div id="front">
         <img id="frontImg" src="Images/front.png" alt="" apple-locked="true" apple-part="com.apple.Dashcode.part.frontimage" apple-style="image-theme: 1; image-shape: 3; image-opacity: 1.00; image-top-color: 0.314732581,0.825375736,0.104905777,1; image-bottom-color: 0.116612963,0.119565189,0.119565189,1; image-radius: 6,6,6,6; image-border: 1; image-border-color: 0,0.303573608,0.0226274785,1; image-border-width: 1; shine-on: 1; shine-strength: 0.10; shine-alpha-level: 0.10; shine-height: 0.90; glass-arc-height: 0.04; embossed-on: 0; embossed-depth: 1; embossed-shadow: 0.68; embossed-highlight: 0.3; shadow-include-shadow: 1; shadow-offset: -1.00,-6.00; shadow-color: 0,0,0,0.3333;">
         <div class="apple-no-children" id="info" apple-part="com.apple.Dashcode.part.infobutton" apple-default-image-visibility="hidden"></div>
-        <div apple-part="com.apple.Dashcode.part.text" class="apple-text apple-no-children" apple-default-image-visibility="hidden" apple-text-overflow="ellipsis" id="text"></div>
-        <div apple-part="com.apple.Dashcode.part.text" class="apple-text apple-no-children" apple-default-image-visibility="hidden" apple-text-overflow="ellipsis" id="text1"></div>
-        <textarea apple-part="com.apple.Dashcode.part.textarea" id="textarea"></textarea>
-        <textarea apple-part="com.apple.Dashcode.part.textarea" id="textarea1"></textarea>
+        <div apple-part="com.apple.Dashcode.part.text" class="apple-text apple-no-children" apple-default-image-visibility="hidden" apple-text-overflow="ellipsis" id="title_first_letter"></div>
+        <div apple-part="com.apple.Dashcode.part.text" class="apple-text apple-no-children" apple-default-image-visibility="hidden" apple-text-overflow="ellipsis" id="title_remainder"></div>
+        <textarea apple-part="com.apple.Dashcode.part.textarea" id="eo_input" onblur="input_onblur(event)" onfocus="input_onfocus(event)" onkeypress="input_onkeypress(event)"></textarea>
+        <textarea apple-part="com.apple.Dashcode.part.textarea" id="en_input" onblur="input_onblur(event)" onfocus="input_onfocus(event)" onkeypress="input_onkeypress(event)"></textarea>
         <div apple-part="com.apple.Dashcode.part.glassbutton" class="apple-no-children" id="to_en"></div>
         <div apple-part="com.apple.Dashcode.part.glassbutton" class="apple-no-children" id="to_eo"></div>
     </div>

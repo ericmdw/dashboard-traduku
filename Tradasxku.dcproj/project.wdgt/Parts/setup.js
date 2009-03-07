@@ -7,8 +7,8 @@
 var dashcodePartSpecs = {
     "done": { "creationFunction": "CreateGlassButton", "onclick": "showFront", "text": "Done" },
     "info": { "backgroundStyle": "black", "creationFunction": "CreateInfoButton", "foregroundStyle": "white", "frontID": "front", "onclick": "showBack" },
-    "text": { "creationFunction": "CreateText", "text": "common.T" },
-    "text1": { "creationFunction": "CreateText", "text": "title.omitFirstLetter" },
-    "to_en": { "creationFunction": "CreateGlassButton", "text": "translate.to_en" },
+    "title_first_letter": { "creationFunction": "CreateText", "text": "common.T" },
+    "title_remainder": { "creationFunction": "CreateText", "text": "title.omitFirstLetter" },
+    "to_en": { "creationFunction": "CreateGlassButton", "onclick": "button_to_en", "text": "translate.to_en" },
     "to_eo": { "creationFunction": "CreateGlassButton", "text": "translate.to_eo" }
 };

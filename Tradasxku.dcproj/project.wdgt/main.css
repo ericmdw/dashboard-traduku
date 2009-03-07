@@ -13,10 +13,10 @@ body {
     display: block;
     top: 0px;
     left: 0px;
-    bottom: 0px;
-    right: 0px;
     opacity: 0.95;
+    right: 0px;
     width: auto;
+    bottom: 0px;
     height: auto;
 }
 
@@ -45,7 +45,7 @@ body {
 
 #done {
     position: absolute;
-    right: 38px;
+    right: 23px;
     margin-left: auto;
     bottom: 21px;
     margin-top: auto;
@@ -55,78 +55,9 @@ body {
     position: absolute;
     width: 150px;
     height: 49px;
-    top: 302px;
-    left: 65px;
+    top: 296px;
+    left: 20px;
     margin-right: auto;
-}
-
-#text {
-    text-overflow: ellipsis;
-    overflow: hidden;
-    position: absolute;
-    margin-top: 0px;
-    text-align: right;
-    color: rgb(213, 0, 0);
-    font-family: 'Apple Chancery';
-    font-size: 21pt;
-    left: 80px;
-    top: 13px;
-    right: 245px;
-    width: auto;
-    bottom: 309px;
-    height: auto;
-}
-
-#text1 {
-    color: black;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    position: absolute;
-    margin-top: 0px;
-    font-family: 'Apple Chancery';
-    font-size: 21pt;
-    top: 13px;
-    left: 97px;
-    right: 152px;
-    width: auto;
-    bottom: 309px;
-    height: auto;
-}
-
-#textarea {
-    color: black;
-    font-family: HelveticaNeue;
-    font-size: 10pt;
-    position: absolute;
-    right: auto;
-    bottom: auto;
-    margin-top: 0px;
-    top: 56px;
-    -webkit-border-top-left-radius: 5px 5px;
-    -webkit-border-top-right-radius: 5px 5px;
-    -webkit-border-bottom-left-radius: 5px 5px;
-    -webkit-border-bottom-right-radius: 5px 5px;
-    height: 104px;
-    left: 23px;
-    width: 297px;
-}
-
-#textarea1 {
-    color: black;
-    font-family: HelveticaNeue;
-    font-size: 10pt;
-    position: absolute;
-    right: auto;
-    bottom: auto;
-    margin-top: 0px;
-    height: 104px;
-    top: 218px;
-    -webkit-border-top-left-radius: 5px 5px;
-    -webkit-border-top-right-radius: 5px 5px;
-    -webkit-border-bottom-left-radius: 5px 5px;
-    -webkit-border-bottom-right-radius: 5px 5px;
-    left: 23px;
-    width: 297px;
 }
 
 #to_en {
@@ -145,4 +76,73 @@ body {
     margin-top: 0px;
     left: 185px;
     top: 177px;
+}
+
+#title_first_letter {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0px;
+    text-align: right;
+    color: rgb(213, 0, 0);
+    font-family: 'Apple Chancery';
+    font-size: 21pt;
+    top: 13px;
+    left: 60px;
+    right: 265px;
+    width: auto;
+    bottom: 309px;
+    height: auto;
+}
+
+#title_remainder {
+    color: black;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0px;
+    font-family: 'Apple Chancery';
+    font-size: 21pt;
+    top: 13px;
+    left: 77px;
+    right: 172px;
+    width: auto;
+    bottom: 309px;
+    height: auto;
+}
+
+#eo_input {
+    color: black;
+    font-family: HelveticaNeue;
+    font-size: 10pt;
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+    top: 56px;
+    -webkit-border-top-left-radius: 5px 5px;
+    -webkit-border-top-right-radius: 5px 5px;
+    -webkit-border-bottom-left-radius: 5px 5px;
+    -webkit-border-bottom-right-radius: 5px 5px;
+    height: 104px;
+    left: 23px;
+    width: 297px;
+}
+
+#en_input {
+    color: black;
+    font-family: HelveticaNeue;
+    font-size: 10pt;
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+    height: 104px;
+    top: 218px;
+    -webkit-border-top-left-radius: 5px 5px;
+    -webkit-border-top-right-radius: 5px 5px;
+    -webkit-border-bottom-left-radius: 5px 5px;
+    -webkit-border-bottom-right-radius: 5px 5px;
+    left: 23px;
+    width: 297px;
 }

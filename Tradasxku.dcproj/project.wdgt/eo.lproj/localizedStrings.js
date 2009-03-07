@@ -6,8 +6,8 @@
  */
 var localizedStrings = {
     "common.T": "T",
-    "Done": "Done",
+    "Done": "Finu",
     "title.omitFirstLetter": "radaŝku",
-    "translate.to_en": "Esperanto -> English",
-    "translate.to_eo": "English -> Esperanto"
+    "translate.to_en": "Esperanta -> Angla",
+    "translate.to_eo": "Angla -> Esperanta"
 };
