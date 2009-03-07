@@ -27,11 +27,11 @@
 	<key>Dashboard Widget Prefs</key>
 	<dict>
 		<key>id</key>
-		<string>d41065ab2cc4ae41</string>
+		<string>eface5e956c4ae41</string>
 		<key>in-layer</key>
 		<true/>
 		<key>path</key>
-		<string>/private/var/folders/OG/OGYwjfWWGuCP4AJgYsm1jk+++TI/-Tmp-/Dashcode/.TemplateCustommZ9BAN/Tradasxku.dcproj/project.wdgt/</string>
+		<string>/private/var/folders/OG/OGYwjfWWGuCP4AJgYsm1jk+++TI/-Tmp-/Dashcode/.Tradasxku.dcprojPKsvLZ/Tradasxku.dcproj/project.wdgt/</string>
 		<key>percent-offset-x</key>
 		<integer>0</integer>
 		<key>percent-offset-y</key>
@@ -39,18 +39,23 @@
 		<key>percent-type</key>
 		<integer>1</integer>
 		<key>percent-x</key>
-		<real>0.088888891041278839</real>
+		<real>0.12777778506278992</real>
 		<key>percent-y</key>
-		<real>0.14888888597488403</real>
+		<real>0.28111112117767334</real>
 		<key>pos-x</key>
-		<integer>128</integer>
+		<integer>184</integer>
 		<key>pos-y</key>
-		<integer>134</integer>
+		<integer>253</integer>
 		<key>rosetta</key>
 		<false/>
 	</dict>
 	<key>DeploymentOptions</key>
-	<dict/>
+	<dict>
+		<key>SavePath</key>
+		<string>/Users/eric/Projects/Tradashku</string>
+		<key>WidgetDeployName</key>
+		<string>Tradasxku</string>
+	</dict>
 	<key>Design time language</key>
 	<string>en.lproj</string>
 	<key>MainSplitViewGeometry</key>
@@ -102,7 +107,11 @@
 		</array>
 	</array>
 	<key>Objects view last selections</key>
-	<array/>
+	<array>
+		<array>
+			<integer>0</integer>
+		</array>
+	</array>
 	<key>Opened Steps</key>
 	<array>
 		<integer>1</integer>

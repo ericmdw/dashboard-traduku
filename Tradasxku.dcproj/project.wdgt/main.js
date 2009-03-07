@@ -120,6 +120,34 @@ if (window.widget) {
 }
 
 function do_translate(srcLangCode) {
+    var targetLangCode = srcLangCode == 'eo' ? 'en' : 'eo';
+    var command = srcLangCode + '_' + targetLangCode;
+    
+    var input = document.getElementById(srcLangCode + '_input').value;
+    if(input.length < 1) return;
+    else input = escape(input);
+    
+    var extractTranslation = function(responseXml) {
+        return responseXml;
+    };
+    
+    var url = 'http://www.traduku.net/cgi-bin/traduku?' + command + '&t=' + input;
+    var xmlRequest = new XMLHttpRequest();
+    xmlRequest.open("GET", url, true);
+
+    xmlRequest.onreadystatechange = function () {
+        if (xmlRequest.readyState == 4) {
+            if(xmlRequest.status == 200) {
+                document.getElementById(targetLangCode + '_input').style.color='#000000';
+                document.getElementById(targetLangCode + '_input').value = extractTranslation(xmlRequest.responseText);
+            } else {
+                document.getElementById(targetLangCode + '_input').style.color='#ff0000';
+                document.getElementById(targetLangCode + '_input').value = 'Failed.';
+            }
+        }
+    };
+
+    xmlRequest.send(null);
 }
 
 function input_onblur(event)
