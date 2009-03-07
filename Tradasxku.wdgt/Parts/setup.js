@@ -10,5 +10,5 @@ var dashcodePartSpecs = {
     "title_first_letter": { "creationFunction": "CreateText", "text": "common.T" },
     "title_remainder": { "creationFunction": "CreateText", "text": "title.omitFirstLetter" },
     "to_en": { "creationFunction": "CreateGlassButton", "onclick": "button_to_en", "text": "translate.to_en" },
-    "to_eo": { "creationFunction": "CreateGlassButton", "onclick": "button_to_eo", "text": "translate.to_eo" }
+    "to_eo": { "creationFunction": "CreateGlassButton", "text": "translate.to_eo" }
 };

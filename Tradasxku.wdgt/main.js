@@ -15,7 +15,7 @@ var eo_hint = "Esperanto ĉi tie...";
 function load()
 {
     dashcode.setupParts();
-
+    
     var eo = document.getElementById('eo_input');
     var en = document.getElementById('en_input');
     
@@ -128,40 +128,18 @@ function do_translate(srcLangCode) {
     else input = escape(input);
     
     var extractTranslation = function(responseXml) {
-        var eoResultSelector = targetLangCode == 'en' ? 
-            '[lang="eo"]' : '#rezulto';
-        var enResultSelector = targetLangCode == 'en' ?
-            '[lang="en"]' : '#originalo';
-        
-        var bodyBeginPos = responseXml.indexOf('<body');
-        bodyBeginPos = responseXml.indexOf('>', bodyBeginPos) + 1;
-        var bodyEndPos = responseXml.indexOf('</body>');
-        var content = responseXml.substring(bodyBeginPos, bodyEndPos);
-        
-        // try with jquery selectors on the content
-        var translation = $(targetLangCode == 'en' ? enResultSelector : eoResultSelector, 
-            '<div id="traduku_wrapper">' + content + '</div>'
-        ).html();
-        
-        return translation;
+        return responseXml;
     };
     
     var url = 'http://www.traduku.net/cgi-bin/traduku?' + command + '&t=' + input;
     var xmlRequest = new XMLHttpRequest();
     xmlRequest.open("GET", url, true);
-    
+
     xmlRequest.onreadystatechange = function () {
         if (xmlRequest.readyState == 4) {
             if(xmlRequest.status == 200) {
-                var result = extractTranslation(xmlRequest.responseText);
-                
-                if(result) {
-                    result = result.replace(/^\s+/, '');
-                    result = result.replace(/\s+$/, '');
-                }
-                
                 document.getElementById(targetLangCode + '_input').style.color='#000000';
-                document.getElementById(targetLangCode + '_input').value = result;
+                document.getElementById(targetLangCode + '_input').value = extractTranslation(xmlRequest.responseText);
             } else {
                 document.getElementById(targetLangCode + '_input').style.color='#ff0000';
                 document.getElementById(targetLangCode + '_input').value = 'Failed.';
@@ -201,16 +179,9 @@ function input_onkeypress(event)
     // if so, figure out which kind of translation we're doing and run it.
     
     var enterKey = event.charCode == 13;
-    var cKey = event.charCode == 99;
-    if((event.ctrlKey || event.metaKey) && enterKey) {
+    if(event.ctrlKey && enterKey) {
         // that's our queue
-        event.preventDefault();
-        do_translate(event.srcElement.id.substring(0,2));
-    }
-    
-    else if((event.ctrlKey || event.metaKey) && cKey) {
-        event.preventDefault();
-        event.srcElement.value = '';
+        doTranslate(srcElement.id.substring(0,1));
     }
 }
 

@@ -7,7 +7,7 @@
 	<key>ContentSplitViewGeometry</key>
 	<dict>
 		<key>ContentSplitViewConfig</key>
-		<integer>8</integer>
+		<integer>24</integer>
 		<key>SplitViewConfig</key>
 		<integer>3</integer>
 		<key>_collapsingFrameDimension</key>
@@ -27,25 +27,25 @@
 	<key>Dashboard Widget Prefs</key>
 	<dict>
 		<key>id</key>
-		<string>1496a0395cc4ae41</string>
+		<string>2e9098d77dc6ae41</string>
 		<key>in-layer</key>
 		<true/>
 		<key>path</key>
-		<string>/private/var/folders/OG/OGYwjfWWGuCP4AJgYsm1jk+++TI/-Tmp-/Dashcode/.Tradasxku.dcprojHjXLU3/Tradasxku.dcproj/project.wdgt/</string>
+		<string>/private/var/folders/OG/OGYwjfWWGuCP4AJgYsm1jk+++TI/-Tmp-/Dashcode/.Tradasxku.dcprojTSl5w9/Tradasxku.dcproj/project.wdgt/</string>
 		<key>percent-offset-x</key>
 		<integer>0</integer>
 		<key>percent-offset-y</key>
 		<integer>0</integer>
 		<key>percent-type</key>
-		<integer>1</integer>
+		<integer>4</integer>
 		<key>percent-x</key>
-		<real>0.12777778506278992</real>
+		<real>0.03055555559694767</real>
 		<key>percent-y</key>
-		<real>0.28111112117767334</real>
+		<real>0.072222225368022919</real>
 		<key>pos-x</key>
-		<integer>184</integer>
+		<integer>44</integer>
 		<key>pos-y</key>
-		<integer>253</integer>
+		<integer>469</integer>
 		<key>rosetta</key>
 		<false/>
 	</dict>
@@ -112,6 +112,10 @@
 	<array>
 		<integer>1</integer>
 	</array>
+	<key>ResourceLogDivider</key>
+	<real>-432</real>
+	<key>ResourceLogFrame</key>
+	<string>964 458 288 359 0 0 1440 878 </string>
 	<key>Visible StackLayout Views</key>
 	<array>
 		<string>front</string>
