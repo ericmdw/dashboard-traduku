@@ -5,9 +5,14 @@
  code generator otherwise the changes will be lost.
  */
 var localizedStrings = {
+    "About": "Traduku is a /dev/ewm project.",
     "common.T": "T",
+    "description": "An English/Esperanto translation widget",
     "Done": "Finu",
-    "title.omitFirstLetter": "radaŝku",
+    "service_credit": "English/Esperanto translation service provided by <a href=\"http://traduku.net/\">Traduku.net</a>",
+    "title.omitFirstLetter": "raduku",
+    "traduku.net": "traduku.net",
+    "traduku_net": "traduku.net",
     "translate.to_en": "Esperanta -> Angla",
     "translate.to_eo": "Angla -> Esperanta"
 };

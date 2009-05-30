@@ -37,9 +37,9 @@ body {
     display: block;
     top: 0px;
     left: 0px;
-    bottom: 0px;
     right: 0px;
     width: auto;
+    bottom: 0px;
     height: auto;
 }
 
@@ -49,15 +49,6 @@ body {
     margin-left: auto;
     bottom: 21px;
     margin-top: auto;
-}
-
-#backDevelopedWith {
-    position: absolute;
-    width: 150px;
-    height: 49px;
-    top: 296px;
-    left: 20px;
-    margin-right: auto;
 }
 
 #to_en {
@@ -145,4 +136,78 @@ body {
     -webkit-border-bottom-right-radius: 5px 5px;
     left: 23px;
     width: 297px;
+}
+
+#text1 {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0px;
+    font-family: 'Apple Chancery';
+    font-size: 16pt;
+    color: rgb(255, 0, 0);
+    left: 36px;
+    top: 30px;
+    right: 294px;
+    width: auto;
+    bottom: 303px;
+    height: auto;
+}
+
+#text2 {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0px;
+    color: rgb(255, 255, 255);
+    font-family: 'Apple Chancery';
+    font-size: 16pt;
+    left: 51px;
+    top: 30px;
+    right: 230px;
+    width: auto;
+    bottom: 303px;
+    height: auto;
+}
+
+#text {
+    font-family: HelveticaNeue;
+    font-size: 10pt;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0px;
+    left: 36px;
+    color: rgb(255, 255, 255);
+    top: 119px;
+    width: auto;
+    height: auto;
+}
+
+#text3 {
+    font-family: HelveticaNeue;
+    font-size: 10pt;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0px;
+    top: 77px;
+    width: auto;
+    height: auto;
+    left: 36px;
+    color: rgb(255, 255, 255);
+}
+
+#text4 {
+    color: black;
+    font-family: HelveticaNeue;
+    font-size: 10pt;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0px;
+    top: 140px;
+    width: auto;
+    height: auto;
+    left: 36px;
 }

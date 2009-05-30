@@ -7,7 +7,7 @@
 	<key>ContentSplitViewGeometry</key>
 	<dict>
 		<key>ContentSplitViewConfig</key>
-		<integer>24</integer>
+		<integer>8</integer>
 		<key>SplitViewConfig</key>
 		<integer>3</integer>
 		<key>_collapsingFrameDimension</key>
@@ -27,11 +27,11 @@
 	<key>Dashboard Widget Prefs</key>
 	<dict>
 		<key>id</key>
-		<string>2e9098d77dc6ae41</string>
+		<string>0dc1d9cc3ca3af41</string>
 		<key>in-layer</key>
 		<true/>
 		<key>path</key>
-		<string>/private/var/folders/OG/OGYwjfWWGuCP4AJgYsm1jk+++TI/-Tmp-/Dashcode/.Tradasxku.dcprojTSl5w9/Tradasxku.dcproj/project.wdgt/</string>
+		<string>/private/var/folders/OG/OGYwjfWWGuCP4AJgYsm1jk+++TI/-Tmp-/Dashcode/.Tradasxku.dcprojas4Ozy/Tradasxku.dcproj/project.wdgt/</string>
 		<key>percent-offset-x</key>
 		<integer>0</integer>
 		<key>percent-offset-y</key>
@@ -39,13 +39,13 @@
 		<key>percent-type</key>
 		<integer>4</integer>
 		<key>percent-x</key>
-		<real>0.03055555559694767</real>
+		<real>0.13263888657093048</real>
 		<key>percent-y</key>
-		<real>0.072222225368022919</real>
+		<real>0.24444444477558136</real>
 		<key>pos-x</key>
-		<integer>44</integer>
+		<integer>191</integer>
 		<key>pos-y</key>
-		<integer>469</integer>
+		<integer>314</integer>
 		<key>rosetta</key>
 		<false/>
 	</dict>
@@ -54,7 +54,7 @@
 		<key>SavePath</key>
 		<string>/Users/eric/Projects/Tradashku</string>
 		<key>WidgetDeployName</key>
-		<string>Tradasxku</string>
+		<string>Traduku</string>
 	</dict>
 	<key>Design time language</key>
 	<string>en.lproj</string>
@@ -73,7 +73,7 @@
 		</array>
 	</dict>
 	<key>MainWindowFrame</key>
-	<string>288 153 1004 717 0 0 1440 878 </string>
+	<string>288 152 1004 717 0 0 1440 878 </string>
 	<key>NavigatorSplitViewGeometry</key>
 	<dict>
 		<key>ContentSplitViewConfig</key>
@@ -107,7 +107,13 @@
 		</array>
 	</array>
 	<key>Objects view last selections</key>
-	<array/>
+	<array>
+		<array>
+			<integer>0</integer>
+			<integer>1</integer>
+			<integer>1</integer>
+		</array>
+	</array>
 	<key>Opened Steps</key>
 	<array>
 		<integer>1</integer>
@@ -118,7 +124,7 @@
 	<string>964 458 288 359 0 0 1440 878 </string>
 	<key>Visible StackLayout Views</key>
 	<array>
-		<string>front</string>
+		<string>back</string>
 	</array>
 </dict>
 </plist>
