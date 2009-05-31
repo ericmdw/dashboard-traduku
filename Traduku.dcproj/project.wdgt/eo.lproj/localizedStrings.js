@@ -10,7 +10,7 @@ var localizedStrings = {
     "description": "Angla/Esperanta tradukaĵo",
     "Done": "Finu",
     "homepage": "Projekta ĉefpaĝo (nova versioj ĉi tie):",
-    "homepage_url": "devewm.com/projects/dashboard_traduku",
+    "homepage_url": "devewm.com/projects/traduku",
     "service_credit": "Traduk-servo:",
     "title.omitFirstLetter": "raduku",
     "traduku.net": "traduku.net",

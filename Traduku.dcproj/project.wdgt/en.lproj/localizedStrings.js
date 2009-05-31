@@ -10,7 +10,7 @@ var localizedStrings = {
     "description": "An English/Esperanto translation widget",
     "Done": "Done",
     "homepage": "Project homepage (updates can be found here):",
-    "homepage_url": "devewm.com/projects/dashboard_traduku",
+    "homepage_url": "devewm.com/projects/traduku",
     "service_credit": "Translation service provider:",
     "title.omitFirstLetter": "raduku",
     "traduku.net": "traduku.net",

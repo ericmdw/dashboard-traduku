@@ -23,15 +23,15 @@
 		</array>
 	</dict>
 	<key>ContentViewType</key>
-	<integer>0</integer>
+	<integer>5</integer>
 	<key>Dashboard Widget Prefs</key>
 	<dict>
 		<key>id</key>
-		<string>302ec56788a4af41</string>
+		<string>e0bdf3d7dfa4af41</string>
 		<key>in-layer</key>
 		<true/>
 		<key>path</key>
-		<string>/private/var/folders/OG/OGYwjfWWGuCP4AJgYsm1jk+++TI/-Tmp-/Dashcode/.Traduku.dcprojHQaKhQ/Traduku.dcproj/project.wdgt/</string>
+		<string>/private/var/folders/OG/OGYwjfWWGuCP4AJgYsm1jk+++TI/-Tmp-/Dashcode/.Traduku.dcprojWgxcO5/Traduku.dcproj/project.wdgt/</string>
 		<key>percent-offset-x</key>
 		<integer>0</integer>
 		<key>percent-offset-y</key>
@@ -109,9 +109,7 @@
 	<key>Objects view last selections</key>
 	<array>
 		<array>
-			<integer>0</integer>
-			<integer>0</integer>
-			<integer>0</integer>
+			<integer>5</integer>
 		</array>
 	</array>
 	<key>Opened Steps</key>
@@ -124,7 +122,7 @@
 	<string>964 458 288 359 0 0 1440 878 </string>
 	<key>Visible StackLayout Views</key>
 	<array>
-		<string>front</string>
+		<string>back</string>
 	</array>
 </dict>
 </plist>
