@@ -27,11 +27,11 @@
 	<key>Dashboard Widget Prefs</key>
 	<dict>
 		<key>id</key>
-		<string>1a198cf518a4af41</string>
+		<string>82c88a121da4af41</string>
 		<key>in-layer</key>
 		<true/>
 		<key>path</key>
-		<string>/private/var/folders/OG/OGYwjfWWGuCP4AJgYsm1jk+++TI/-Tmp-/Dashcode/.Traduku.dcprojbbnKGv/Traduku.dcproj/project.wdgt/</string>
+		<string>/private/var/folders/OG/OGYwjfWWGuCP4AJgYsm1jk+++TI/-Tmp-/Dashcode/.Traduku.dcprojfdt1ff/Traduku.dcproj/project.wdgt/</string>
 		<key>percent-offset-x</key>
 		<integer>0</integer>
 		<key>percent-offset-y</key>
@@ -107,7 +107,12 @@
 		</array>
 	</array>
 	<key>Objects view last selections</key>
-	<array/>
+	<array>
+		<array>
+			<integer>0</integer>
+			<integer>0</integer>
+		</array>
+	</array>
 	<key>Opened Steps</key>
 	<array>
 		<integer>1</integer>
