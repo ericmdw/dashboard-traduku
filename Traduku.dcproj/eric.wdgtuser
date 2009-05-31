@@ -27,25 +27,25 @@
 	<key>Dashboard Widget Prefs</key>
 	<dict>
 		<key>id</key>
-		<string>82c88a121da4af41</string>
+		<string>302ec56788a4af41</string>
 		<key>in-layer</key>
 		<true/>
 		<key>path</key>
-		<string>/private/var/folders/OG/OGYwjfWWGuCP4AJgYsm1jk+++TI/-Tmp-/Dashcode/.Traduku.dcprojfdt1ff/Traduku.dcproj/project.wdgt/</string>
+		<string>/private/var/folders/OG/OGYwjfWWGuCP4AJgYsm1jk+++TI/-Tmp-/Dashcode/.Traduku.dcprojHQaKhQ/Traduku.dcproj/project.wdgt/</string>
 		<key>percent-offset-x</key>
 		<integer>0</integer>
 		<key>percent-offset-y</key>
 		<integer>0</integer>
 		<key>percent-type</key>
-		<integer>4</integer>
+		<integer>1</integer>
 		<key>percent-x</key>
-		<real>0.13263888657093048</real>
+		<real>0.11527777463197708</real>
 		<key>percent-y</key>
-		<real>0.24444444477558136</real>
+		<real>0.15666666626930237</real>
 		<key>pos-x</key>
-		<integer>191</integer>
+		<integer>166</integer>
 		<key>pos-y</key>
-		<integer>314</integer>
+		<integer>141</integer>
 		<key>rosetta</key>
 		<false/>
 	</dict>
@@ -73,7 +73,7 @@
 		</array>
 	</dict>
 	<key>MainWindowFrame</key>
-	<string>288 152 1004 717 0 0 1440 878 </string>
+	<string>191 161 1004 717 0 0 1440 878 </string>
 	<key>NavigatorSplitViewGeometry</key>
 	<dict>
 		<key>ContentSplitViewConfig</key>
@@ -109,6 +109,7 @@
 	<key>Objects view last selections</key>
 	<array>
 		<array>
+			<integer>0</integer>
 			<integer>0</integer>
 			<integer>0</integer>
 		</array>
