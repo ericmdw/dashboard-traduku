@@ -5,14 +5,18 @@
  code generator otherwise the changes will be lost.
  */
 var localizedStrings = {
-    "About": "Traduku is a /dev/ewm project.",
+    "author": "Eric W. Montgomery",
     "common.T": "T",
     "description": "An English/Esperanto translation widget",
     "Done": "Done",
-    "service_credit": "English/Esperanto translation service provided by",
+    "homepage": "Project homepage (updates can be found here):",
+    "homepage_url": "devewm.com/projects/dashboard_traduku",
+    "service_credit": "Translation service provider:",
     "title.omitFirstLetter": "raduku",
     "traduku.net": "traduku.net",
     "traduku_net": "traduku.net",
     "translate.to_en": "Esperanto -> English",
-    "translate.to_eo": "English -> Esperanto"
+    "translate.to_eo": "English -> Esperanto",
+    "version": "v1.0",
+    "widget_credit": "Widget developed by:"
 };

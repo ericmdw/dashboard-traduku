@@ -27,11 +27,11 @@
 	<key>Dashboard Widget Prefs</key>
 	<dict>
 		<key>id</key>
-		<string>0dc1d9cc3ca3af41</string>
+		<string>1a198cf518a4af41</string>
 		<key>in-layer</key>
 		<true/>
 		<key>path</key>
-		<string>/private/var/folders/OG/OGYwjfWWGuCP4AJgYsm1jk+++TI/-Tmp-/Dashcode/.Tradasxku.dcprojas4Ozy/Tradasxku.dcproj/project.wdgt/</string>
+		<string>/private/var/folders/OG/OGYwjfWWGuCP4AJgYsm1jk+++TI/-Tmp-/Dashcode/.Traduku.dcprojbbnKGv/Traduku.dcproj/project.wdgt/</string>
 		<key>percent-offset-x</key>
 		<integer>0</integer>
 		<key>percent-offset-y</key>
@@ -52,7 +52,7 @@
 	<key>DeploymentOptions</key>
 	<dict>
 		<key>SavePath</key>
-		<string>/Users/eric/Projects/Tradashku</string>
+		<string>/Users/eric/Desktop</string>
 		<key>WidgetDeployName</key>
 		<string>Traduku</string>
 	</dict>
@@ -107,13 +107,7 @@
 		</array>
 	</array>
 	<key>Objects view last selections</key>
-	<array>
-		<array>
-			<integer>0</integer>
-			<integer>1</integer>
-			<integer>1</integer>
-		</array>
-	</array>
+	<array/>
 	<key>Opened Steps</key>
 	<array>
 		<integer>1</integer>
@@ -124,7 +118,7 @@
 	<string>964 458 288 359 0 0 1440 878 </string>
 	<key>Visible StackLayout Views</key>
 	<array>
-		<string>back</string>
+		<string>front</string>
 	</array>
 </dict>
 </plist>

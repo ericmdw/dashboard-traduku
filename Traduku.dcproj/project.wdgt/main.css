@@ -138,7 +138,7 @@ body {
     width: 297px;
 }
 
-#text1 {
+#back_title_first_letter {
     text-overflow: ellipsis;
     overflow: hidden;
     position: absolute;
@@ -154,7 +154,7 @@ body {
     height: auto;
 }
 
-#text2 {
+#back_title_remainder {
     text-overflow: ellipsis;
     overflow: hidden;
     position: absolute;
@@ -170,8 +170,7 @@ body {
     height: auto;
 }
 
-#text {
-    font-family: HelveticaNeue;
+#translation_credit {
     font-size: 10pt;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -179,35 +178,112 @@ body {
     margin-top: 0px;
     left: 36px;
     color: rgb(255, 255, 255);
-    top: 119px;
+    top: 167px;
     width: auto;
     height: auto;
+    font-family: 'Trebuchet MS';
 }
 
-#text3 {
+#tagline {
+    font-size: 10pt;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0px;
+    left: 36px;
+    color: rgb(255, 255, 255);
+    top: 61px;
+    width: auto;
+    height: auto;
+    font-family: 'Trebuchet MS';
+}
+
+#translation_credit_link {
+    font-size: 10pt;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0px;
+    left: 36px;
+    color: rgb(255, 255, 255);
+    line-height: 16px;
+    top: 188px;
+    height: auto;
+    font-style: italic;
+    font-family: 'Trebuchet MS';
+    right: 240px;
+    width: auto;
+}
+
+#version {
     font-family: HelveticaNeue;
     font-size: 10pt;
     text-overflow: ellipsis;
     overflow: hidden;
     position: absolute;
     margin-top: 0px;
-    top: 77px;
+    color: rgb(255, 255, 255);
+    top: 41px;
+    left: 130px;
+    width: auto;
+    height: auto;
+}
+
+#homepage {
+    font-size: 10pt;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0px;
+    top: 96px;
     width: auto;
     height: auto;
     left: 36px;
     color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS';
 }
 
-#text4 {
-    color: black;
-    font-family: HelveticaNeue;
+#homepage_link {
     font-size: 10pt;
     text-overflow: ellipsis;
     overflow: hidden;
     position: absolute;
     margin-top: 0px;
-    top: 140px;
+    top: 117px;
     width: auto;
     height: auto;
     left: 36px;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-family: 'Trebuchet MS';
+}
+
+#author_credit {
+    font-size: 10pt;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0px;
+    top: 237px;
+    width: auto;
+    height: auto;
+    left: 36px;
+    color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS';
+}
+
+#author_credit_link {
+    font-size: 10pt;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0px;
+    top: 260px;
+    height: auto;
+    left: 36px;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-family: 'Trebuchet MS';
+    right: 110px;
+    width: auto;
 }
