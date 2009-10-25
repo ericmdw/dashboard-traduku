@@ -139,9 +139,17 @@ function do_translate(srcLangCode) {
         var content = responseXml.substring(bodyBeginPos, bodyEndPos);
         
         // try with jquery selectors on the content
-        var translation = $(targetLangCode == 'en' ? enResultSelector : eoResultSelector, 
+        var translationHtml = $(targetLangCode == 'en' ? enResultSelector : eoResultSelector, 
             '<div id="traduku_wrapper">' + content + '</div>'
         ).html();
+        
+        // remove traduku.net's rich text handling
+        var translation = '';
+        var translationFragment = '';
+        var spanRemover = /<span[^>]*>([^<]*)<\/span>/g;
+        while((translationFragment = spanRemover.exec(translationHtml)) != null) {
+            translation += ' ' + translationFragment[1];
+        }
         
         return translation;
     };
