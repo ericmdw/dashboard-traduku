@@ -17,6 +17,6 @@ var localizedStrings = {
     "traduku_net": "traduku.net",
     "translate.to_en": "Esperanto -> English",
     "translate.to_eo": "English -> Esperanto",
-    "version": "v1.0",
+    "version": "v1.1",
     "widget_credit": "Widget developed by:"
 };

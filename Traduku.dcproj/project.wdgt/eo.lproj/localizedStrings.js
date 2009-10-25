@@ -17,6 +17,6 @@ var localizedStrings = {
     "traduku_net": "traduku.net",
     "translate.to_en": "Esperanta -> Angla",
     "translate.to_eo": "Angla -> Esperanta",
-    "version": "v1.0",
+    "version": "v1.1",
     "widget_credit": "Tradukaĵon programis de:"
 };

@@ -203,7 +203,7 @@ function input_onkeypress(event)
     var enterKey = event.charCode == 13;
     var cKey = event.charCode == 99;
     if((event.ctrlKey || event.metaKey) && enterKey) {
-        // that's our queue
+        // that's our cue
         event.preventDefault();
         do_translate(event.srcElement.id.substring(0,2));
     }
