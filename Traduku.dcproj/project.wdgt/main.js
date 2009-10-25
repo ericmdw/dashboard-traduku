@@ -143,12 +143,16 @@ function do_translate(srcLangCode) {
             '<div id="traduku_wrapper">' + content + '</div>'
         ).html();
         
-        // remove traduku.net's rich text handling
-        var translation = '';
-        var translationFragment = '';
-        var spanRemover = /<span[^>]*>([^<]*)<\/span>/g;
-        while((translationFragment = spanRemover.exec(translationHtml)) != null) {
-            translation += ' ' + translationFragment[1];
+        if(srcLangCode == "en") {
+            // remove traduku.net's rich text handling
+            var translation = '';
+            var translationFragment = '';
+            var spanRemover = /<span[^>]*>([^<]*)<\/span>/g;
+            while((translationFragment = spanRemover.exec(translationHtml)) != null) {
+                translation += ' ' + translationFragment[1];
+            }
+        } else {
+            translation = translationHtml;
         }
         
         return translation;
